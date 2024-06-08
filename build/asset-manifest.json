@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f261e3c9.css",
+    "main.js": "/static/js/main.e757ab6a.js",
+    "static/media/the-jungle-book-cover.webp": "/static/media/the-jungle-book-cover.ef4e1a3060b32dda8067.webp",
+    "static/media/secret-garden-cover.webp": "/static/media/secret-garden-cover.fb40c76a8f9c1273a8a2.webp",
+    "static/media/wizard-of-oz-cover.webp": "/static/media/wizard-of-oz-cover.04213daf1eced6ce4697.webp",
+    "static/media/landing-hero.webp": "/static/media/landing-hero.73d873911d8ec694bf3b.webp",
+    "static/media/lost-cow.webp": "/static/media/lost-cow.66620374ee412f09bb18.webp",
+    "static/media/library.webp": "/static/media/library.ad410578c67db494f93a.webp",
+    "static/media/login-image.webp": "/static/media/login-image.6784b7b6f2b385699eb7.webp",
+    "static/media/emptycart.png": "/static/media/emptycart.7ced6ca03c6f92b30554.png",
+    "static/media/fossil.webp": "/static/media/fossil.7f77e3f460c8d6fb83b8.webp",
+    "static/media/passwordpolice.webp": "/static/media/passwordpolice.64aa713fccf8a6c03b7c.webp",
+    "index.html": "/index.html",
+    "main.f261e3c9.css.map": "/static/css/main.f261e3c9.css.map",
+    "main.e757ab6a.js.map": "/static/js/main.e757ab6a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f261e3c9.css",
+    "static/js/main.e757ab6a.js"
+  ]
+}

@@ -1,0 +1,139 @@
+.filters {
+    height: 40rem;
+    margin-top: 2rem;
+}
+
+.filters * {
+    margin: 0;
+    padding: 0;
+}
+
+.filters-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}
+
+.filter-header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.filter-heading {
+    letter-spacing: var(--letter-spacing);
+    color: var(--matteblack);
+}
+
+.clearall-btn {
+    border-radius: var(--button-border-radius);
+    background-color: var(--paperwhite);
+    cursor: pointer;
+    border: none;
+    padding: 2px 6px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.clearall-btn:hover {
+    background-color: sandybrown;
+}
+
+.price-group, .cat-group, .rating-group {
+    display: flex;
+    flex-flow: column nowrap;
+    border: 2px solid var(--alphablack);
+    padding: 0.150rem 0.5rem 0.5rem 0.5rem;
+    margin: 0 2rem;
+}
+
+.price-legend, .cat-legend, .rating-legend {
+    font-weight: bold;
+    color: var(--matteblack);
+}
+
+.filters label {
+    display: inline;
+}
+
+.price-asc-text, .price-dsc-text, .cat-group label {
+    letter-spacing: var(--letter-spacing);
+}
+
+.price-legend, .cat-legend, .rating-legend {
+    padding: 0 1rem;
+}
+
+.group-asc, .group-dsc, .group-fiction, .group-nonfiction, .group-selfhelp {
+    margin: 1rem 0 0.5rem 0;
+}
+
+.group-slider {
+    margin: 1rem 0 0.2rem 0;
+}
+
+.price-asc, .price-dsc, .cat-fiction, .cat-nonfiction, .cat-selfhelp {
+    margin-right: 0.5rem;
+}
+
+.range-limits {
+    display: flex;
+    justify-content: space-between;
+    color: var(--matteblack);
+}
+
+.rating-slider {
+    width: 100%;
+}
+
+
+.range-limits span:last-child {
+    font-weight: 900;
+}
+
+/*Browser specific input slider styles*/
+
+input[type="range"] {
+    /*-webkit-appearance: none;*/
+    appearance: none;
+    cursor: pointer;
+
+}
+
+/***** Track Styles *****/
+/***** Chrome, Safari, Opera, and Edge Chromium *****/
+.rating-slider::-webkit-slider-runnable-track {
+    background: linear-gradient(to right, #ffdba8, #d36b2b);
+    height: 0.5rem;
+    border-radius: 8px;
+}
+
+/***** Thumb Styles *****/
+/***** Chrome, Safari, Opera, and Edge Chromium *****/
+.rating-slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Add this line */
+    appearance: none; /* Add this line */
+    border: none;
+    border-radius: 50%;
+    background-color: #d36b2b;
+    height: 1rem;
+    width: 1rem;
+    margin-top: -0.25rem;
+}
+
+/******** Firefox ********/
+.rating-slider::-moz-range-track {
+    /*background: linear-gradient(to right, #0000001A, var(--matteblack));*/
+    background: linear-gradient(to right, #ffdba8, #d36b2b);
+    height: 0.5rem;
+    border-radius: 8px;
+}
+
+/***** Thumb Styles *****/
+/***** Firefox *****/
+.rating-slider::-moz-range-thumb {
+    border: none;
+    background-color: #d36b2b;
+    height: 1rem;
+    width: 1rem;
+}

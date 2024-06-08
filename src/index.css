@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+:root {
+  --tealish:  rgb(60 255 208);
+  --paperwhite: rgba(253, 188, 99, 0.75);
+  --alphablack: rgba(0, 0, 0, 0.56);
+  --matteblack: #434343;
+  --button-border-radius: 5px;
+  --button-bg-transition: background-color 0.2s ease-in;
+  --wishlist-color: tomato;
+  --light-tomato: #ff8872;
+  --letter-spacing: -0.5px;
+  --text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2), 4px 4px 4px rgba(0, 0, 0, 0.1);
+  --raised-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.23);
+}

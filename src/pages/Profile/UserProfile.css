@@ -1,0 +1,38 @@
+.user-profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.user-profile {
+    width: 30%;
+    border-radius: 10px;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3));
+    overflow: auto;
+    max-height: 100%;
+    border: 2px solid var(--matteblack);
+}
+
+
+.user-profile-content {
+    padding: 20px;
+}
+
+.user-profile-heading {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    background-color: var(--paperwhite);
+}
+
+.active-profile-heading, .active-address-heading, .inactive-profile-heading, .inactive-address-heading {
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+.inactive-profile-heading, .inactive-address-heading {
+    color: rgba(0, 0, 0, 0.5); /* change the color and alpha value as needed */
+}

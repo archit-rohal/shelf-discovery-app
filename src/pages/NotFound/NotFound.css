@@ -1,0 +1,31 @@
+.notfound {
+    position: relative;
+    height: 94vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    font-size: xxx-large;
+}
+
+.notfound::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url("../../../src/assets/lost-cow.webp");
+    background-size: cover;
+    opacity: 0.2; /* Adjust this value to get the desired opacity */
+    z-index: -1;
+}
+
+.error-code {
+    color: crimson;
+}
+
+.bookstore-link {
+    color: saddlebrown;
+}

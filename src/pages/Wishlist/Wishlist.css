@@ -1,0 +1,153 @@
+.wishlist-title {
+    letter-spacing: var(--letter-spacing);
+    color: var(--matteblack);
+}
+
+.wishlist-count {
+    margin-left: 0.5rem;
+    font-weight: lighter;
+    scale: 0.8;
+}
+
+.wishlist {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.wishlist-container {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100%;
+    width: 98%;
+    gap: 2rem;
+    justify-content: space-evenly;
+}
+
+.product-wrapper {
+    background-color: lightcyan;
+    margin-top: 1rem;
+    display: flex;
+    flex-flow: column nowrap;
+    height: 25rem;
+    width: 15rem;
+    position: relative;
+    text-shadow: var(--text-shadow);
+    transition: box-shadow 0.2s ease-in-out, scale 0.1s ease-in-out;
+    border-radius: 10px;
+    box-shadow: var(--raised-box-shadow);
+}
+
+.product-wrapper:hover {
+    scale: 1.014;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.2), 0 12px 12px rgba(0, 0, 0, 0.23);
+}
+
+.bestseller-tag {
+    background-color: lightgray;
+    position: absolute;
+    top: 8px;
+    padding: 4px 6px;
+    font-size: small;
+}
+
+.image-wrapper {
+    height: 50%;
+    width: 80%;
+    margin: auto;
+}
+
+.image-display {
+    object-fit: contain;
+}
+
+.w-name {
+    margin: 0 0 0 1rem;
+}
+
+.rating-wrapper {
+    position: relative;
+}
+
+.w-rating {
+    position: absolute;
+    top: -18px;
+    right: 1rem;
+    background-color: lightgray;
+    padding: 6px 6px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.w-author {
+    margin: 0 0 0 1rem;
+    color: darkslategray;
+}
+
+.prices-group {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.w-price {
+    margin-left: 1rem;
+    color: grey;
+    text-decoration: line-through;
+}
+
+.w-price:before, .w-discount:before {
+    content: '\20B9';
+}
+
+.w-discount {
+    margin: 0 0 0 1rem;
+}
+
+.w-percent {
+    margin: 0 0 0 1rem;
+    color: darkgreen;
+}
+
+h1 {
+    color: rgba(218, 192, 109, 155)
+}
+
+.w-buttons {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 4px;
+}
+
+.w-buttons > * {
+    height: 2rem;
+    border: none;
+    font-size: large;
+    background-color: var(--paperwhite);
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    border-radius: var(--button-border-radius);
+}
+
+.w-buttons > *:hover {
+    background-color: sandybrown;
+}
+
+.wishlist-remove-btn {
+    margin-bottom: 4px;
+}
+
+.add-to-cart-btn {
+    margin-bottom: 5px;
+}
+
+.add-another-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 5px 0;
+    text-shadow: none;
+    letter-spacing: var(--letter-spacing);
+}
