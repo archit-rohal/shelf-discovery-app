@@ -1,6 +1,6 @@
 import React, {useContext} from 'react';
 import './Signup.css';
-import heroImage from "../../assets/library.webp"
+import heroImage from "../../assets/login-image.webp"
 import {NavLink, useNavigate} from "react-router-dom";
 import {SignupContext} from "../../contexts/SignupProvider";
 import {LoginContext} from "../../contexts/LoginProvider";
