@@ -30,5 +30,6 @@ $ npm start
 - React Router v6
 - Vanilla CSS integrated with BoostMat UI Component Library
 
-### Fake Backend
-This project uses mockBee to provide fake backend APIs for development and testing. mockBee simplifies the development process by offering ready-to-use fake APIs, allowing you to focus on building and testing frontend features quickly.
+### MockBee as backend
+
+This project uses [mockBee](https://mockbee.netlify.app/) to provide fake backend APIs for development and testing. mockBee simplifies the development process by offering ready-to-use fake APIs, allowing a focus on building and testing frontend features quickly.
