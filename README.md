@@ -1,6 +1,3 @@
-## E-Commerce Backend
-
-This folder contains the Mock Backend created for E-Commerce App. It contains different API end-points and database configuration for building E-Commerce; so that you can focus on building Frontend.
 # shelf-discovery-app
 
 ## **How to install and run locally ?**
@@ -33,3 +30,5 @@ $ npm start
 - React Router v6
 - Vanilla CSS integrated with BoostMat UI Component Library
 
+### Fake Backend
+This project uses mockBee to provide fake backend APIs for development and testing. mockBee simplifies the development process by offering ready-to-use fake APIs, allowing you to focus on building and testing frontend features quickly.
