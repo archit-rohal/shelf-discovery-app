@@ -28,7 +28,7 @@ $ npm start
 - React JS
 - React Context API + useReducer
 - React Router v6
-- Vanilla CSS integrated with BoostMat UI Component Library
+- Vanilla CSS
 
 ### MockBee as backend
 
